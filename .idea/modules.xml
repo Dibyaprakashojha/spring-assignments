@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hospitalapp/hospitalapp.iml" filepath="$PROJECT_DIR$/hospitalapp/hospitalapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-assignments.iml" filepath="$PROJECT_DIR$/spring-assignments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-hospitalapp-datajpa/spring-hospitalapp-datajpa.iml" filepath="$PROJECT_DIR$/spring-hospitalapp-datajpa/spring-hospitalapp-datajpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-hospitalapp-jdbc/spring-hospitalapp-jdbc.iml" filepath="$PROJECT_DIR$/spring-hospitalapp-jdbc/spring-hospitalapp-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-import-csvfiles-datajpa/spring-import-csvfiles-datajpa.iml" filepath="$PROJECT_DIR$/spring-import-csvfiles-datajpa/spring-import-csvfiles-datajpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-rest-medicineapp/spring-rest-medicineapp.iml" filepath="$PROJECT_DIR$/spring-rest-medicineapp/spring-rest-medicineapp.iml" />
+    </modules>
+  </component>
+</project>

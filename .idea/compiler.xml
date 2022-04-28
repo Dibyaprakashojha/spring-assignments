@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-rest-medicineapp" />
+        <module name="spring-hospitalapp-datajpa" />
+        <module name="hospitalapp" />
+        <module name="spring-import-csvfiles-datajpa" />
+        <module name="spring-hospitalapp-jdbc" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hospital-app" target="1.5" />
+      <module name="hospitalapp" target="11" />
+      <module name="spring-hospitalapp-datajpa" target="11" />
+      <module name="spring-hospitalapp-jdbc" target="11" />
+      <module name="spring-import-csvfiles" target="11" />
+      <module name="spring-import-csvfiles-datajpa" target="11" />
+      <module name="spring-rest-medicineapp" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hospitalapp" options="-parameters" />
+      <module name="spring-hospitalapp-datajpa" options="-parameters" />
+      <module name="spring-hospitalapp-jdbc" options="-parameters" />
+      <module name="spring-import-csvfiles" options="-parameters" />
+      <module name="spring-import-csvfiles-datajpa" options="-parameters" />
+      <module name="spring-rest-medicineapp" options="-parameters" />
+    </option>
+  </component>
+</project>
