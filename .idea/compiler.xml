@@ -8,28 +8,36 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-rest-medicineapp" />
-        <module name="spring-furnapp-jdbc" />
         <module name="spring-import-csvfiles-datajpa" />
-        <module name="OnlineBookApp" />
+        <module name="spring-rest-productresponse" />
+        <module name="spring-security-jwt" />
         <module name="spring-hospitalapp-datajpa" />
         <module name="hospitalapp" />
         <module name="autowiring-player" />
         <module name="spring-hospitalapp-jdbc" />
         <module name="spring-productapp-jdbc" />
+        <module name="spring-furnapp-jdbc" />
+        <module name="online-book-app" />
+        <module name="spring-productapp-datajpa" />
+        <module name="spring-rest-camerajpa" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="autowiring-player" target="11" />
       <module name="hospital-app" target="1.5" />
       <module name="hospitalapp" target="11" />
-      <module name="OnlineBookApp" target="11" />
+      <module name="online-book-app" target="11" />
       <module name="spring-furnapp-jdbc" target="11" />
       <module name="spring-hospitalapp-datajpa" target="11" />
       <module name="spring-hospitalapp-jdbc" target="11" />
       <module name="spring-import-csvfiles" target="11" />
       <module name="spring-import-csvfiles-datajpa" target="11" />
+      <module name="spring-productapp-datajpa" target="11" />
       <module name="spring-productapp-jdbc" target="11" />
+      <module name="spring-rest-camerajpa" target="11" />
       <module name="spring-rest-medicineapp" target="11" />
+      <module name="spring-rest-productresponse" target="11" />
+      <module name="spring-security-jwt" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -40,8 +48,12 @@
       <module name="spring-hospitalapp-jdbc" options="-parameters" />
       <module name="spring-import-csvfiles" options="-parameters" />
       <module name="spring-import-csvfiles-datajpa" options="-parameters" />
+      <module name="spring-productapp-datajpa" options="-parameters" />
       <module name="spring-productapp-jdbc" options="-parameters" />
+      <module name="spring-rest-camerajpa" options="-parameters" />
       <module name="spring-rest-medicineapp" options="-parameters" />
+      <module name="spring-rest-productresponse" options="-parameters" />
+      <module name="spring-security-jwt" options="-parameters" />
     </option>
   </component>
 </project>

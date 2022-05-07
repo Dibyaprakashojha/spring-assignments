@@ -12,6 +12,10 @@
         <option value="$PROJECT_DIR$/../junitdemos/OnlineBookApp/pom.xml" />
         <option value="$PROJECT_DIR$/../spring-demos/autowiring-player/pom.xml" />
         <option value="$PROJECT_DIR$/../springbootdemos/spring-productapp-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/../springbootdemos/spring-productapp-datajpa/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-rest/spring-rest-camerajpa/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-rest/spring-rest-productresponse/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-boot-rest/spring-security-jwt/pom.xml" />
       </list>
     </option>
   </component>
