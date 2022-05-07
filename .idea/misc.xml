@@ -8,6 +8,10 @@
         <option value="$PROJECT_DIR$/spring-hospitalapp-datajpa/pom.xml" />
         <option value="$PROJECT_DIR$/spring-import-csvfiles-datajpa/pom.xml" />
         <option value="$PROJECT_DIR$/spring-rest-medicineapp/pom.xml" />
+        <option value="$PROJECT_DIR$/../springbootdemos/spring-furnapp-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/../junitdemos/OnlineBookApp/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring-demos/autowiring-player/pom.xml" />
+        <option value="$PROJECT_DIR$/../springbootdemos/spring-productapp-jdbc/pom.xml" />
       </list>
     </option>
   </component>

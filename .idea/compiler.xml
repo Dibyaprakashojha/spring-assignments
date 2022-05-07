@@ -8,29 +8,39 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-rest-medicineapp" />
+        <module name="spring-furnapp-jdbc" />
+        <module name="spring-import-csvfiles-datajpa" />
+        <module name="OnlineBookApp" />
         <module name="spring-hospitalapp-datajpa" />
         <module name="hospitalapp" />
-        <module name="spring-import-csvfiles-datajpa" />
+        <module name="autowiring-player" />
         <module name="spring-hospitalapp-jdbc" />
+        <module name="spring-productapp-jdbc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="autowiring-player" target="11" />
       <module name="hospital-app" target="1.5" />
       <module name="hospitalapp" target="11" />
+      <module name="OnlineBookApp" target="11" />
+      <module name="spring-furnapp-jdbc" target="11" />
       <module name="spring-hospitalapp-datajpa" target="11" />
       <module name="spring-hospitalapp-jdbc" target="11" />
       <module name="spring-import-csvfiles" target="11" />
       <module name="spring-import-csvfiles-datajpa" target="11" />
+      <module name="spring-productapp-jdbc" target="11" />
       <module name="spring-rest-medicineapp" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="hospitalapp" options="-parameters" />
+      <module name="spring-furnapp-jdbc" options="-parameters" />
       <module name="spring-hospitalapp-datajpa" options="-parameters" />
       <module name="spring-hospitalapp-jdbc" options="-parameters" />
       <module name="spring-import-csvfiles" options="-parameters" />
       <module name="spring-import-csvfiles-datajpa" options="-parameters" />
+      <module name="spring-productapp-jdbc" options="-parameters" />
       <module name="spring-rest-medicineapp" options="-parameters" />
     </option>
   </component>
